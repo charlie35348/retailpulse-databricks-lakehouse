@@ -1,0 +1,39 @@
+{
+  "source_file": "online_retail_II.xlsx",
+  "source_size_mb": 43.51,
+  "worksheets": {
+    "Year 2009-2010": 525461,
+    "Year 2010-2011": 541910
+  },
+  "total_transaction_rows": 1067371,
+  "blank_rows_skipped": 0,
+  "exact_duplicate_rows": 34335,
+  "missing_values_by_column": {
+    "Invoice": 0,
+    "StockCode": 0,
+    "Description": 4382,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "Price": 0,
+    "Customer ID": 243007,
+    "Country": 0
+  },
+  "quantity_counts": {
+    "positive": 1044421,
+    "negative": 22950
+  },
+  "price_counts": {
+    "positive": 1061164,
+    "zero": 6202,
+    "negative": 5
+  },
+  "cancellation_style_invoice_rows": 19494,
+  "distinct_nonblank_counts": {
+    "invoices": 53628,
+    "products": 5304,
+    "customers": 5942,
+    "countries": 43
+  },
+  "invoice_date_min": "2009-12-01T07:45:00",
+  "invoice_date_max": "2011-12-09T12:50:00"
+}

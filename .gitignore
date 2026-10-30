@@ -1,0 +1,20 @@
+
+# Operating system
+.DS_Store
+
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Raw datasets
+data/
+
+# Keep sample data documentation
+sample_data/*
+!sample_data/README.md
