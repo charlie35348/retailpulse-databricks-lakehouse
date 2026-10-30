@@ -133,7 +133,7 @@ The `gold_country_performance` table summarises retail performance across countr
 
  4. Customer RFM Segmentation
 
-![Customer RFM Segmentation](docs/gold_customer_rfm.png)
+![Customer RFM Segmentation](docs/gold_customer_rmf.png)
 
 The `gold_customer_rfm` table contains customer-level Recency, Frequency and Monetary (RFM) metrics. It assigns RFM scores and customer segments to help identify customer behaviour and purchasing patterns.
 
