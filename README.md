@@ -1,20 +1,20 @@
 # RetailPulse — Retail Data Engineering Lakehouse
 
-An end-to-end retail data engineering portfolio project built with **Databricks, PySpark, Spark SQL and Delta Lake**.
+An end-to-end retail data engineering portfolio project built with **Databricks, PySpark, Spark SQL and Delta Lake.
 
 RetailPulse transforms the UCI Online Retail II dataset into a structured Bronze–Silver–Gold lakehouse, applies data-quality validation, orchestrates notebook workflows and produces analytical datasets for retail business insights.
 
 # Project Screenshots
 
-# Databricks SQL Dashboard
+ Databricks SQL Dashboard
 
 ![RetailPulse Dashboard](docs/dashboard.png)
 
-# Lakeflow Job Workflow
+ Lakeflow Job Workflow
 
 ![RetailPulse Job Workflow](docs/job_flow.png)
 
-# Pipeline Execution
+ Pipeline Execution
 
 ![RetailPulse Job Execution](docs/job_run_time_graph.png)
 
@@ -31,7 +31,7 @@ Expected local files:
 - `data/raw/online_retail_2009_2010.csv`
 - `data/raw/online_retail_2010_2011.csv`
 
-The `data/` directory is excluded from Git to avoid committing large raw dataset files. Follow the project setup instructions in the main README before running the export and profiling scripts.
+The `data` directory is excluded from Git to avoid committing large raw dataset files. Follow the project setup instructions in the main README before running the export and profiling scripts.
 
 # Project Overview
 
@@ -51,7 +51,7 @@ The project demonstrates a complete data engineering workflow:
 Bronze → Silver → Gold
 
 | Layer | Purpose |
-|---|---|
+| |     |
 | Bronze | Ingests source retail transactions into Delta Lake |
 | Silver | Standardises data, handles quality issues and creates derived fields |
 | Gold | Produces analytical datasets for sales, products, countries and customers |
